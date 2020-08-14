@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
-</head>
-<body>
 
-   <!--start nav bar--> 
-   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: skyblue;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!--start nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light border-bottom border-info sticky-top" style="background-color: skyblue;">
     <span class="navbar-brand mb-1 h1" style="background-color:white">Nuchana Johnson</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,23 +21,81 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav navbar-nav navbar-right ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item"> 
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="/index.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-</header>  
 
-<!--Portfolio thumbnail--> 
-<img src="https://qtxasset.com/styles/max_2600x2600/s3fs/2017-07/CadaquesThird.jpg?itok=X108QQOU" alt="cadaques" class="img-thumbnail">
-<img src="https://media.architecturaldigest.com/photos/5f298951485b66fbbd9021cf/16:9/w_2560%2Cc_limit/IMG-22.jpg" class="img-thumbnail" alt="architecturaldigest">
+
+  <!--Portfolio thumbnail-->
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-2"></div>
+
+      <div class="col-md-8 content">
+
+        <h1>Portfolio</h1>
+        <hr class="my-3">
+
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://qtxasset.com/styles/max_2600x2600/s3fs/2017-07/CadaquesThird.jpg?itok=X108QQOU"
+              alt="cadaques" class="img-thumbnail" width="350px" height="350px">
+            <a href="https://www.salvador-dali.org/en/museums/house-salvador-dali-in-portlligat/">Explore Cadaques</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://media.architecturaldigest.com/photos/5f298c8978a7be19de412c17/master/w_1600%2Cc_limit/IMG-3.jpg"
+              class="img-thumbnail" alt="architecturaldigest" width="350px" height="350px">
+            <a href="https://www.architecturaldigest.com/">Architectural Digest</a>
+          </div>
+          <div class="col-md-6">
+            <img src="https://hg-images.condecdn.net/image/WdYd5NYYEry/crop/1020/f/jurema.jpg" class="img-thumbnail"
+              alt="Interior design" width="350px" height="350px"
+              href="https://www.houseandgarden.co.uk/gallery/outdoor-drinking-london">
+            <a href="https://www.houseandgarden.co.uk/gallery/outdoor-drinking-london">House & Garden</a>
+          </div>
+          <div class="col-md-6">
+            <img src="https://assets.vogue.com/photos/5e95dbc28918170008ad7dcf/3:2/w_1600%2Cc_limit/00_promo.jpg"
+              class="img-thumbnail" alt="Runway" width="350px" height="350px">
+            <a href="https://www.vogue.com/">Vogue</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/beagle_running_on_grass_other/1800x1200_beagle_running_on_grass_other.jpg"
+              class="img-thumbnail" alt="Dog running on grass" width="350px" height="350px">
+            <a href="https://pets.webmd.com/default.htm">Human Best Friends</a>
+
+          </div>
+        </div>
+
+        <div class="col-sm-2"></div>
+
+        <div class="push">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <footer>
+    © Copyright
+  </footer>
+
+
 
 
 </body>
+
 </html>

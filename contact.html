@@ -1,59 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-
- <!--start nav bar--> 
- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: skyblue;">
-  <span class="navbar-brand mb-1 h1" style="background-color:white">Nuchana Johnson</span>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="nav navbar-nav navbar-right ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-</header>  
+  <!--start nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light border-bottom border-info sticky-top"
+    style="background-color: skyblue;">
+    <span class="navbar-brand mb-1 h1" style="background-color:white">Nuchana Johnson</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   
-
+  <div class="container">
     <form>
-        <h3>Contact</h3>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputName">Name</label>
-            <input type="Name" class="form-control" id="inputName">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputEmail">Email</label>
-            <input type="Email" class="form-control" id="inputEmail">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="inputMessage">Message</label>
-          <input type="Message" class="form-control" id="Message" placeholder="Message">
-        </div>
+      <h1>Contact</h1>
+      <hr class="my-3">
 
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputName">Name</label>
+          <input type="Name" class="form-control" id="inputName">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail">Email</label>
+          <input type="Email" class="form-control" id="inputEmail">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputMessage">Message</label>
+        <input type="Message" class="form-control" id="Message" placeholder="Message">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+
 
 </body>
-</html>
 
+</html>

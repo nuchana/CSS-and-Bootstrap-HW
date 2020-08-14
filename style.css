@@ -6,21 +6,30 @@ html, body {
     padding: 20px;
     min-height: 100%;
     margin: 0 auto -50px;
-    background-color: darkgray;
+
+  }
+
+  .nav-item {
+    font-weight: bold;
   }
 
   .content {
-      background-color: darkorange;
+    padding: 20px;
+    background-color: lightsalmon; 
+   
   }
 
   footer,
   .push {
     height: 50px; 
   }
+
   footer {
-      text-align: center; line-height: 18px; background-color: cadetblue;
+      text-align: center; line-height: 50px; background-color: skyblue;
   }
 
-  body {background-color: cornsilk;}
+  body {background-color: linen}
 
-  
+
+
+  }

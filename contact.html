@@ -8,6 +8,8 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -33,32 +35,55 @@
       </ul>
     </div>
   </nav>
-  
+
   <div class="container">
-    <form>
-      <h1>Contact</h1>
-      <hr class="my-3">
+    <div class="row">
+      <div class="col-sm-2"></div>
 
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputName">Name</label>
-          <input type="Name" class="form-control" id="inputName">
+      <div class="col-md-8 content">
+        <h1>Contact</h1>
+        <hr class="my-3">
+
+        <div class="form-group">
+          <div class="form-group col-md-6">
+            <label for="inputName">Name</label>
+            <input type="Name" class="form-control" id="inputName">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Email</label>
+            <input type="Email" class="form-control" id="inputEmail">
+          </div>
         </div>
-        <div class="form-group col-md-6">
-          <label for="inputEmail">Email</label>
-          <input type="Email" class="form-control" id="inputEmail">
+        <div class="form-group col-lg-6">
+          <label for="inputMessage">Message</label>
+          <input type="Message" class="form-control" id="Message" placeholder="Message">
         </div>
-      </div>
-      <div class="form-group">
-        <label for="inputMessage">Message</label>
-        <input type="Message" class="form-control" id="Message" placeholder="Message">
+
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+      <div class="col-sm-2"></div>
+
+
+
+    </div>
+
+
 
   </div>
 
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container-fluid h-25">
+      <div class="row">
+        <div class="col-lg-12 background-color skyblue border-top border-info text-center text-bottom text-muted">
+          Copyright © 2020
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Footer -->
 
 </body>
 

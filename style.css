@@ -22,8 +22,12 @@ html, body {
   margin: 10px auto;
 }
 
+.col-md-9 content{
+    box-sizing: content-box;
+  }
+
 div {
-    display: block
+  display: block
 }
 
 p {

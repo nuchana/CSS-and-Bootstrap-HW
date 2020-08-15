@@ -26,10 +26,6 @@ html, body {
     box-sizing: content-box;
   }
 
-div {
-  display: block
-}
-
 p {
   display: block;
   margin-block-start: 1em;

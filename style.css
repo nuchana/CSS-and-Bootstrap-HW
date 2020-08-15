@@ -2,40 +2,44 @@ html, body {
     height: 100%;
     margin: 0;
     flex-direction: column;
-  }
-  .container {
-    padding: 20px;
-    min-height: 100%;
-    margin: 0 auto;
+    background-color: mintcream;
+}
 
-  }
-
-
-  div{
-    display: block
-
-  }
-  .nav-item {
+.nav-item {
     font-weight: bold;
   }
 
-  .content {
+.content {
     padding: 20px;
     background-color: lightsalmon; 
-   
   }
 
-  footer,
-  .push {
-    height: 50px; 
-  }
+.container {
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: normal;
+  min-height: 100%;
+  margin: 10px auto;
+}
 
-  footer {
-      text-align: center; line-height: 50px; background-color: skyblue;
-  }
+div {
+    display: block
+}
 
-  body {background-color: linen}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+footer {
+  text-align: center; line-height: 50px; background-color: skyblue;
+}
+
+  
 
 
 
-  }
+  

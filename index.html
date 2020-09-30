@@ -9,13 +9,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
 
 <body>
   <!--start nav bar and sticky bar-->
   <nav class="navbar navbar-expand-lg navbar-light border-bottom border-info sticky-top"
-    style="background-color: skyblue;">
+    style="background-color: lightblue;">
     <span class="navbar-brand mb-1 h1" style="background-color:white">Nuchana Johnson</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,24 +24,93 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav navbar-nav navbar-right ml-auto">
+    
         <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link" href="index.html">
+            <i class="fa fa-user-circle mr-1" aria-hidden="true"></i>
+            About</a> 
+          
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="portfolio.html">
+            <i class="fas fa-project-diagram mr-1" aria-hidden="true"></i>
+          Portfolio</a>
+       
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">
+            <i class="far fa-envelope mr-1" aria-hidden="true"></i>
+            Contact</a>
+        
         </li>
       </ul>
     </div>
   </nav>
 
+
   <!--main content goes here-->
 
-  <div class="container">
 
-    <div class="row">
+
+  <div class="container">
+    <div class="card mb-3" style="max-width: 100%";>
+      <div class="row no-gutters" id="cardBackground">
+        <div class="col-md-3" id="profilePic">
+          <img src="./Assets/Images/NK photo.JPG" class="img-fluid img-thumbnail figure-img rounded"
+            alt="profile picture">
+        </div>
+        <div class="col-md-9">
+          <div class="card-body">
+            <h1 class="card-title">About Me</h1>
+            <hr class="my-3">
+            <p class="card-text text-justify">I have been a marketer creating consumer brands and goods for over 8 years
+              and now I am
+              looking for
+              a new adventure of a career shift. Coding has become my main interest because I am excited by new
+              innovations and applications created by coders. These offer a real solution to consumers and users. That
+              has inspired me to be a part of this career journey.
+              I enjoy creating tangible products in my current line of work and shifting to coding will be exciting and
+              challenging as I will create and build intangible work
+              that can be used in everyday life through digital coding.</p>
+
+            <p class="card-text text-justify">I am originally from Bangkok, Thailand and I have been moving around USA,
+              Spain,
+              Thailand, and Singapore in the last 10 years.
+              Partly, it was for my study and work that I had to move and travel. I love travelling, meeting new people
+              and experiencing
+              new cultures. Tennis and scuba diving are my go-to hobbies when I have free time; however, moving to USA
+              in the east coast
+              is not easy to find a place for scuba diving. The water temperature can be freezing even in the summer
+              month!</p>
+
+            <p class="card-text text-justify">
+              My journey in digital coding has just begun and can't wait to learn more about building my new skills in
+              the next 6 months. I am a full-time employee and taking a new program can be daunting and definitely out of my
+              comfort zone
+              but if I do not take my chance now, I will regret for not pursuing it for sure.
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small">
+    <div class="container-fluid h-25">
+      <div class="row">
+        <div class="col-lg-12 background-color lightblue border-top border-info text-center text-bottom text-muted">
+          Copyright © 2020
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- <div class="row">
       <div class="col-lg-12 content">
         <div class="page-header">
           <h1>About Me</h1>
@@ -49,57 +119,58 @@
       </div>
     </div>
 
+
+
     <div class="row">
       <div class="col-md-3 content">
         <figure>
-          <img src="./Assets/Images/NK photo.JPG" alt="Profile Picture" class="img-fluid img-thumbnail figure-img rounded">
+          <img src="./Assets/Images/NK photo.JPG" alt="Profile Picture"
+            class="img-fluid img-thumbnail figure-img rounded">
         </figure>
 
       </div>
 
+
+
       <div class="col-md-9 content">
         <p>
-          I have been a marketer creating consumer brands and goods for over 8 years and now I am looking for 
-          a new adventure of a career shift. Coding has become my main interest because I am excited by new 
-          innovations and applications created by coders. These offer a real solution to consumers and users. That has inspired me to be a part of this career journey.
-          I enjoy creating tangible products in my current line of work and shifting to coding will be exciting and challenging as I will create and build intangible work 
-          that can be used in everyday life through digital coding. 
+          I have been a marketer creating consumer brands and goods for over 8 years and now I am looking for
+          a new adventure of a career shift. Coding has become my main interest because I am excited by new
+          innovations and applications created by coders. These offer a real solution to consumers and users. That has
+          inspired me to be a part of this career journey.
+          I enjoy creating tangible products in my current line of work and shifting to coding will be exciting and
+          challenging as I will create and build intangible work
+          that can be used in everyday life through digital coding.
         </p>
 
         <p>
-          I am originally from Bangkok, Thailand and I have been moving around USA, Spain, Thailand, and Singapore in the last 10 years. 
-          Partly, it was for my study and work that I had to move and travel. I love travelling, meeting new people and experiencing 
-          new cultures. Tennis and scuba diving are my go-to hobbies when I have free time; however, moving to USA in the east coast
+          I am originally from Bangkok, Thailand and I have been moving around USA, Spain, Thailand, and Singapore in
+          the last 10 years.
+          Partly, it was for my study and work that I had to move and travel. I love travelling, meeting new people and
+          experiencing
+          new cultures. Tennis and scuba diving are my go-to hobbies when I have free time; however, moving to USA in
+          the east coast
           is not easy to find a place for scuba diving. The water temperature can be freezing even in the summer month!
         </p>
 
         <P>
-          My journey in digital coding has just begun and can't wait to learn more about building my new skills in the next
-          6 months. I am a full-time employee and taking a new program can be daunting and definitely out of my comfort zone
+          My journey in digital coding has just begun and can't wait to learn more about building my new skills in the
+          next
+          6 months. I am a full-time employee and taking a new program can be daunting and definitely out of my comfort
+          zone
           but if I do not take my chance now, I will regret for not pursuing it for sure.
         </P>
 
-      
+
       </div>
 
     </div>
 
   </div>
 
-  </div>
+  </div> -->
 
-  <!-- Footer -->
-  <footer class="page-footer font-small skyblue">
-    <div class="container-fluid h-25">
-      <div class="row">
-        <div class="col-lg-12 background-color skyblue border-top border-info text-center text-bottom text-muted">
-          Copyright © 2020
-        </div>
-      </div>
-    </div>
 
-  </footer>
-  <!-- Footer -->
 
 
 </body>

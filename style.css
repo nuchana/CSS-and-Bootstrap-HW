@@ -11,8 +11,21 @@ html, body {
 
 .content {
     padding: 20px;
-    background-color: lightsalmon; 
+    background-color: seashell; 
   }
+
+#profilePic {
+  padding: 10px;
+}
+
+#cardBackground {
+  background-color: seashell;
+
+}
+
+#portfolioBackground {
+  background-color: seashell;
+}
 
 .container {
   padding: 20px;

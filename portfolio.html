@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
   <!--start nav bar and sticky bar-->
   <nav class="navbar navbar-expand-lg navbar-light border-bottom border-info sticky-top"
-    style="background-color: skyblue;">
+    style="background-color: lightblue;">
     <span class="navbar-brand mb-1 h1" style="background-color:white">Nuchana Johnson</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,18 +23,29 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav navbar-nav navbar-right ml-auto">
+
         <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link" href="index.html">
+            <i class="fa fa-user-circle mr-1" aria-hidden="true"></i>
+            About</a>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="portfolio.html">
+            <i class="fas fa-project-diagram mr-1" aria-hidden="true"></i>
+            Portfolio</a>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">
+            <i class="far fa-envelope mr-1" aria-hidden="true"></i>
+            Contact</a>
+
         </li>
       </ul>
     </div>
   </nav>
+
 
 
   <!--Portfolio thumbnail-->
@@ -50,58 +62,60 @@
 
       <div class="row">
         <div class="col-sm-2"> </div>
-        <div class="col-md-4">
+        <figure class="col-md-4">
           <img src="https://qtxasset.com/styles/max_2600x2600/s3fs/2017-07/CadaquesThird.jpg?itok=X108QQOU"
             alt="cadaques" class="img-thumbnail" width="350px" height="350px">
-          
-        </div>
-        <div class="col-md-4">
+          <figcaption class="figure-caption">Travel Planning.</figcaption>
+        </figure>
+        <figure class="col-md-4">
           <img
             src="https://media.architecturaldigest.com/photos/5f298c8978a7be19de412c17/master/w_1600%2Cc_limit/IMG-3.jpg"
             class="img-thumbnail" alt="architecturaldigest" width="350px" height="350px">
-     
-        </div>
+          <figcaption class="figure-caption">Interior Design Application.</figcaption>
+        </figure>
       </div>
       <br>
 
       <div class="row">
         <div class="col-sm-2"></div>
-        <div class="col-md-4">
+        <figure class="col-md-4">
           <img src="https://hg-images.condecdn.net/image/WdYd5NYYEry/crop/1020/f/jurema.jpg" class="img-thumbnail"
             alt="Interior design" width="350px" height="350px">
-         
-        </div>
-        <div class="col-md-4">
+          <figcaption class="figure-caption">Top restaurants around me.</figcaption>
+        </figure>
+
+        <figure class="col-md-4">
           <img src="https://assets.vogue.com/photos/5e95dbc28918170008ad7dcf/3:2/w_1600%2Cc_limit/00_promo.jpg"
             class="img-thumbnail" alt="Runway" width="350px" height="350px">
-      
-        </div>
+          <figcaption class="figure-caption">Fashion online magazine.</figcaption>
+        </figure>
       </div>
       <br>
 
       <div class="row">
 
         <div class="col-sm-2"></div>
-        <div class="col-md-4">
+        <figure class="col-md-4">
           <img
             src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/beagle_running_on_grass_other/1800x1200_beagle_running_on_grass_other.jpg"
             class="img-thumbnail" alt="Dog running on grass" width="350px" height="350px">
-         
-        </div>
+          <figcaption class="figure-caption">Finding your dog walkers nearby.</figcaption>
+        </figure>
         <div class="col-md-4"></div>
       </div>
     </div>
   </div>
 
   <!-- Footer -->
-  <footer class="page-footer font-small skyblue">
+  <footer class="page-footer font-small">
     <div class="container-fluid h-25">
       <div class="row">
-        <div class="col-lg-12 background-color skyblue border-top border-info text-center text-bottom text-muted">
+        <div class="col-lg-12 background-color lightblue border-top border-info text-center text-bottom text-muted">
           Copyright © 2020
         </div>
       </div>
     </div>
+
   </footer>
   <!-- Footer -->
 

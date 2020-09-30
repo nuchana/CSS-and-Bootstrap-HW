@@ -10,7 +10,7 @@ For contact, i made no change as I used forms in bootstrap.
 
 The following image demonstrates my portfolio
 
-![My portfolio](./Images/aboutme.png)
+![My portfolio](./images/aboutme.png)
 
 
 

@@ -281,3 +281,13 @@ body, html {
       letter-spacing: .2rem;
   }
 }
+
+.card {
+
+  padding:10px;
+  background-color: linen;
+  margin-bottom:30px;
+  left: 150px;
+  
+  
+}

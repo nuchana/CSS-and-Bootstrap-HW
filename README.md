@@ -1,16 +1,19 @@
-What I updated this time
+# My Fab Portfolio 
+I built my online presence to showcase my resume and portfolio to my potential employees. I also connect it with my github and linkedin. 
 
-I feel more comfortable to use CSS and bootstrap and understand better how to customize the bootstrap templates. I also learnt how to use fontawesome to create some special icons which was something I didn't know about when I firstly worked on this assignment 2 months ago.
+# Technology used
+* HTML
+* CSS
+* Javascript 
 
-For About me page, I changed to use card template instead of manipulating col/ grid system and use some padding in CSS to adjust my profile image. On the sticky nav bar, I added fontawesome and its href links across pages. 
+# My website 
+![My portfolio](./images/myportfolio.jpg)
 
-For portfolio page, I changed to use the figure component in Bootstrap as I want to display related images and text with figure caption (instead of using image thumbnail). 
+# Challenges
 
-For contact, i made no change as I used forms in bootstrap. 
+* I have mastered CSS and bootstrap and understood better how to customize the bootstrap templates. I also learnt how to use fontawesome to create some special icons which was something I didn't know about when I firstly worked on this assignment 2 months ago.
 
-The following image demonstrates my portfolio
+* Download link, special icons, html links and Javascript combination were difficult but need to googlefu to sort them out. 
 
-![My portfolio](./images/aboutme.png)
-
-
+* Bootstrap is very useful but I need to be mindful about using it as I need to put my own touch into the design as well. 
 

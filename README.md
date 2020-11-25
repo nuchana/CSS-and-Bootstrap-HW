@@ -7,7 +7,7 @@ I built my online presence to showcase my resume and portfolio to my potential e
 * Javascript 
 
 # My website 
-![My portfolio](./images/myportfolio.jpg)
+![My portfolio](./images/myportfolio.png)
 
 # Challenges
 
